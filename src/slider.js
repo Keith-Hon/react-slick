@@ -5,7 +5,7 @@ import { InnerSlider } from "./inner-slider";
 import json2mq from "json2mq";
 import defaultProps from "./default-props";
 import { canUseDOM } from "./utils/innerSliderUtils";
-const enquire = canUseDOM() && require("enquire.js");
+const enquire = canUseDOM() && require("@moredeal/enquire.js");
 
 export default class Slider extends React.Component {
   constructor(props) {
