@@ -1,6 +1,6 @@
 {
-  "name": "react-slick",
-  "version": "0.29.0",
+  "name": "@moredeal/react-slick",
+  "version": "0.29.2",
   "description": " React port of slick carousel",
   "main": "./lib",
   "files": [
@@ -83,8 +83,8 @@
     "why-did-you-update": "^0.1.1"
   },
   "dependencies": {
+    "@moredeal/enquire.js": "2.1.7",
     "classnames": "^2.2.5",
-    "enquire.js": "^2.1.6",
     "json2mq": "^0.2.0",
     "lodash.debounce": "^4.0.8",
     "resize-observer-polyfill": "^1.5.0"
